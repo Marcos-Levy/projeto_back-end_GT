@@ -195,7 +195,7 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
   - Body:
   ```json
   {
-	  {
+   {
     "enabled": true,
     "name": "Produto 01",
     "slug": "produto-01",
@@ -250,29 +250,28 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
 		"price": 119.9,
 		"price_with_discount": 99.9,
     
-	...
   }
   ```
-  - `images` :
+  - **`images`** :
     - Editar imagens de Produtos
     > Para editar deve pegar o `id` gerado da imagem
      ```json
-     ...  
+     
        {
 	    "images":[
         {
            "id":2,
-			  "path": "caminho imagem 1"
+	       "path": "caminho imagem 1"
         }
       ]
       
      }
-    ... 
+    
     ```
     - Deletar imagens de Produtos
     > Para deletar deve pegar o `id` gerado da imagem
      ```json
-    ...
+    
      {
 	    "images":[
         {
@@ -282,28 +281,28 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
       ]
       
      }
-     ...
+     
     ```
     - Criar imagens de Produtos
     > Para criar só basta indicar o `path`
      ```json
-    ...
+    
      {
 	    "images":[
         {
-          "path":"caminho imagem 2"
+          	"path":"caminho imagem 2"
         }
       ]
       
      }
-    ...
+    
     ```
 
-  - `options` :
+  - **`options`**:
     - Editar options de Produtos
     > Para editar deve pegar o `id` gerado da opção
      ```json
-     ...   
+       
      {
 	    "options":[
         {
@@ -314,12 +313,12 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
       ]
       
      }
-    ... 
+    
     ```
     - Deletar options de Produtos
     > Para deletar deve pegar o `id` gerado da opção
      ```json
-    ...
+    
      {
 	    "options":[
         {
@@ -329,12 +328,12 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
       ]
       
      }
-    ...
+    
     ```
     - Criar options de Produtos
     > Para criar só basta indicar os valores
      ```json
-     ...
+     
      {
 	    "options":[
         {  
@@ -342,15 +341,39 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
 				"shape": "circle",
 				"radius": 0,
 				"type": "color",
-				"values": [
-					"#000",
-					"#333"
+				"values": ["#000","#333"]
         }
       ]
       
      }
-     ...
+     
     ```
+- **`Categories`** :
+    - Inserir categorias em Produtos
+    > Para inserir basta informar o id da categoria
+     ```json 
+    {
+	"Categories":[
+		{
+		"category_id":1
+		}
+	]	
+  }
+    
+    ```
+    - Deletar categorias de Produtos
+    > Para deletar deve pegar o `id` gerado da categoria
+    ```json
+    {
+	  "Categories":[
+	  {
+            "id":1,
+            "deleted":true
+      }
+     ]
+    }
+    ```
+   
 
 #### 5. Deletar Categoria
 
