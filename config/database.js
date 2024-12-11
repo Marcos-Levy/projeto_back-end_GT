@@ -1,6 +1,6 @@
 const {Sequelize} = require('sequelize')
 
-const bd = 'geracaotech' // nome do banco de dados
+const bd = 'teste' // nome do seu banco de dados
 const user = 'root' // nome do usuário do MySQL
 const password = 'root' //senha do usuário do Mysql
 
