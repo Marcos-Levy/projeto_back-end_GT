@@ -185,11 +185,11 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
     - `option=GG,PP`
       - Query string para filtrar o resultado de produtos pelo valor das opções disponíveis
 
-#### 2. Listar Categoria pelo ID
+#### 2. Listar Produtos pelo ID
   - Method : **GET**
   - URL : `/api/products/:id`
 
-#### 3. Criar Categoria
+#### 3. Criar Produtos
   - Method : **POST**
   - URL : `/api/products/`
   > Por questões de segurança, no cabeçalho da requisição deve conter o token para que a ação seja realizada.
@@ -235,7 +235,7 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
   ```
   
      
-#### 4. Atualizar Categoria
+#### 4. Atualizar Produtos
   - Method : **PUT** 
   - URL : `/api/products/:id`
   > Por questões de segurança, no cabeçalho da requisição deve conter o token para que a ação seja realizada.
@@ -376,7 +376,7 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
     ```
    
 
-#### 5. Deletar Categoria
+#### 5. Deletar Produtos
 
   - Method : **DELETE**
   - URL : `/api/products/:id`
