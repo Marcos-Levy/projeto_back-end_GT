@@ -26,15 +26,15 @@ Este é um projeto back-end da Geração Tech desenvolvido utilizando o NodeJs, 
 1. **Clone do Repositório**
 
 ```bash
-  npm install my-project
-  cd my-project
+  git clone https://github.com/Marcos-Levy/projeto_back-end_GT.git
 ```
+> Após clonar, entre no diretório do projeto
 2. **Instale as Dependências**
 
 ```bash
   npm install 
 ```
-3. **Configuração do arquivo `config\database.js` para comunicação com o bando de dados**
+3. **Configuração do arquivo `config\database.js` para comunicação com o banco de dados**
 ## Sincronização com o banco de dados
 
 Após configurar o `config\database.js` com as informações para acesso ao banco de dados , vamos sincronizar o projeto para criação das tabelas e relacionamentos.
@@ -62,10 +62,10 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
     "password": "ma123"
   }
   ```
-> Os valores repassados do body devem ser iguais ao usuario cadastrado no banco de dados
+> Os valores repassados do body devem ser iguais ao usuário cadastrado no banco de dados
 > Essa requisição vai retornar um token que será usado no cabeçalho das demais rotas.
 ### Rotas Usuário
-#### 1. Listar Usuarios
+#### 1. Listar Usuários
   - Method : **GET**
   - URL : `/api/users/`
   - Query Params : 
