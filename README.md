@@ -59,8 +59,8 @@ Agora com tudo configurado e sincronizado, vamos executar o projeto.
   - Body:
   ```json
   {
-    "email":"marcos.levy@gmail.com",
-    "password": "ma123"
+    "email":"admin@admin.com",
+    "password": "admin"
   }
   ```
 > Os valores repassados do body devem ser iguais ao usuário cadastrado no banco de dados
