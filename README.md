@@ -42,6 +42,7 @@ Após configurar o `config\database.js` com as informações para acesso ao banc
 ```bash
   node syncDB.js
 ```
+> Ao sincronizar, será criado um usuário com email:**`admin@admin.com`** e password:**`admin`**. Esse usuário nos permitira requisitar na rota de login o nosso token, já que inicialmente não temos nenhum usuário cadastrado.
 
 ## Executar Projeto
 Agora com tudo configurado e sincronizado, vamos executar o projeto.
