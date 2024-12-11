@@ -1,7 +1,7 @@
 
 # Projeto Back-End GeraçãoTech
 
-Este é um projeto back-end da Geração Tech desenvolvido utilizando o NodeJs, e dentre as ferramentas utilizadas estão o framework Express para manipulação, criação de rotas e o Sequelize que é um ORM para banco de dados. Esse projeto trata-se da criação de uma API para realizar uma operação de CRUD para gerenciamento de produtos, além da implementação de filtros a parti de parâmetros URL
+Este é um projeto back-end da Geração Tech desenvolvido utilizando o NodeJs e ferramentas como o framework Express para manipulação e criação de rotas, e o Sequelize que é um ORM para banco de dados. Esse projeto trata-se da criação de uma API para realizar uma operação de CRUD para gerenciamento de produtos, além da implementação de filtros a parti de parâmetros URL
 
 
 ## Documentação
